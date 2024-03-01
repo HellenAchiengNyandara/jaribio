@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class LoginView extends StatelessWidget {
   const LoginView({Key? key}) : super(key: key);
   @override
@@ -23,15 +21,15 @@ class LoginView extends StatelessWidget {
               ),
              const SizedBox(height: 20),
              const TextField(
-                obscureText: true, // Hide password characters
+                obscureText: true, 
                 decoration: InputDecoration(
                   labelText: 'Password',
                 ),
               ),
              const SizedBox(height: 30),
               FloatingActionButton.extended(
-                // Use extended for wider button
-                onPressed: () {}, // Handle login logic here
+                
+                onPressed: () {}, 
                 label:const Text('Log In'),
                 icon:const Icon(Icons.login),
               ),
