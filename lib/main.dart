@@ -17,4 +17,4 @@ class App extends StatelessWidget {
       home:SplashView(),
     );
   }
-},
+}
